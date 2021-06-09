@@ -1,0 +1,23 @@
+.add-option{
+    display: flex;
+    padding: $m-size;
+    flex-direction: column;
+}
+.add-option__input{
+    flex-grow: 1;
+    background: $dark-yellow;
+    border: none;
+    border-bottom: 0.3rem solid #4b4a4a;
+    border-radius: 4px;
+    color: black;
+    margin: 0 0 $s-size 0;
+    padding: $s-size;
+}
+@media (min-width: 45rem) {
+    .add-option{
+        flex-direction: row;
+    }
+    .add-option__input{
+        margin: 0 $s-size 0 0;
+    }
+}

@@ -1,0 +1,37 @@
+.big-button{
+    background-color: $bigButtonClr;
+    border: none;
+    border-bottom: 0.6rem solid darken($bigButtonClr, 10%);
+    border-radius: 4px;
+    color: white;
+    font-weight: bold;  
+    font-size: $l-size;
+    width: 100%;
+    margin-bottom: $s-size;
+    padding: 2.4rem;
+}
+.big-button:disabled{
+    opacity: .5;
+}
+@media (min-width: 45rem){
+    .big-button{
+        margin-bottom: $xl-size;
+    }
+    
+}
+.button{
+    background-color: lightslategrey;
+    border: none;
+    border-bottom: 0.3rem solid darken(lightslategrey, 10%);
+    border-radius: 4px;
+    font-weight: 500;
+    padding: $s-size;
+    color: white;
+}
+.button--link{
+    background: none;
+    border: none;
+    color: darkslategray;
+    padding: 0.5rem;
+    margin-right: 1rem;
+}
